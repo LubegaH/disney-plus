@@ -1,11 +1,13 @@
 import React from "react";
 import styled from "styled-components";
 import ImgSlider from "./ImgSlider";
+import Channels from "./Channels";
 
 function Home() {
   return (
     <Container>
       <ImgSlider></ImgSlider>
+      <Channels></Channels>
     </Container>
   );
 }
